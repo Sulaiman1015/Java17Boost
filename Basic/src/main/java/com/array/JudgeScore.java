@@ -1,4 +1,4 @@
-package org.example;
+package com.array;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,9 +7,16 @@ public class JudgeScore {
     public static void main(String[] args) {
         int[] arr = new int[6];
         Scanner sc = new Scanner(System.in);
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < arr.length;) {
             System.out.println("judge score "+(i+1)+": ");
-            arr[i] = sc.nextInt();
+            int score = sc.nextInt();
+            if( score >= 0 && score <= 100){
+                arr[i] = score;
+                i++;
+            }else{
+                System.out.println("invalid score, try again");
+            }
+
         }
         System.out.println(Arrays.toString(arr));
         score(arr);

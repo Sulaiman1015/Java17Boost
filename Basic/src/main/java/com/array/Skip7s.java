@@ -1,4 +1,4 @@
-package org.example;
+package com.array;
 
 public class Skip7s {
     public static void main(String[] args) {

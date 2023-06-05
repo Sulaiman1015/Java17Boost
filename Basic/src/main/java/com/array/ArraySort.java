@@ -1,4 +1,4 @@
-package org.example;
+package com.array;
 
 public class ArraySort {
     public static void main(String[] args) {

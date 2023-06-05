@@ -1,4 +1,4 @@
-package org.example;
+package com.array;
 
 import java.util.Random;
 import java.util.Scanner;

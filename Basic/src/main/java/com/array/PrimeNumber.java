@@ -1,4 +1,4 @@
-package org.example;
+package com.array;
 
 public class PrimeNumber {
     //prime number between 101 - 200
